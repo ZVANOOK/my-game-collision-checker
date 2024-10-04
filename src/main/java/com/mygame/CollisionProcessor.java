@@ -3,7 +3,7 @@ package main.java.com.mygame;
 // Класс для обработки коллизий
 class CollisionProcessor {
     private Area previousArea;
-    private Area newArea;
+    private final Area newArea;
 
     public CollisionProcessor(Area previous, Area newArea) {
         this.previousArea = previous;

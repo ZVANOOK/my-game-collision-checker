@@ -4,7 +4,7 @@ import java.util.List;
 
 // Окрестность (Area)
 class Area {
-    private List<GameObject> gameObjects = new ArrayList<>();
+    private final List<GameObject> gameObjects = new ArrayList<>();
 
     public void addObject(GameObject object) {
         gameObjects.add(object);

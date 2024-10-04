@@ -2,7 +2,7 @@ package main.java.com.mygame;
 
 // Команда проверки коллизии для одной области
 class CheckCollisionCommand extends CollisionCommand {
-    private Area area;
+    private final Area area;
 
     public CheckCollisionCommand(Area area) {
         this.area = area;
