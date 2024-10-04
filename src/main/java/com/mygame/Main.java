@@ -15,8 +15,12 @@ public class Main {
 
         CollisionProcessor processor = new CollisionProcessor(area1, area2);
 
-        // Перемещение игрока в другую область
+        // Перемещение игрока в другую область и проверка коллизий
+        System.out.println("Перемещение игрока в новую область...");
         processor.process(player); // Объект "Player" перемещается в area2
+        System.out.println();
+
+        System.out.println("Проверка коллизий для объектов в новой области...");
         processor.process(enemy);   // Объект "Enemy" в той же области
     }
 }

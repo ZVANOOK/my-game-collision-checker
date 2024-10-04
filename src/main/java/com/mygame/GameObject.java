@@ -2,7 +2,7 @@ package main.java.com.mygame;
 
 // Игровой объект
 class GameObject {
-    private final String name;
+    private String name;
     private Area currentArea;
 
     public GameObject(String name) {
